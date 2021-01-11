@@ -1,0 +1,37 @@
+header h1 {
+  text-align: center;
+  font-size: 50px;
+  border-bottom: 3px solid gray;
+  padding-bottom: 50px;
+  margin: 0;
+}
+a {
+  color: gray;
+}
+#grid {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+}
+#grid nav ul {
+  margin: 0;
+  padding: 40px;
+  border-right: 3px solid gray;
+  width: 150px;
+}
+#grid article {
+  padding-left: 25px;
+}
+@media(max-width: 1200px) {
+  #grid {
+    display: block;
+  }
+  #grid nav ul {
+    border-right: none;
+  }
+  header h1 {
+    border-bottom: none;
+  }
+}
+.picture {
+  text-align: center;
+}
